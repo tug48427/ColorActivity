@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         final ConstraintLayout mylayout=findViewById(R.id.layout);
 
         final Spinner textSpinner = findViewById(R.id.spinner);
-        final String colors[] =  {"Blue","Cyan", "Gray","Green","Magenta", "Red","Yellow", "Fuchsia", "DarkGray","LightGray" };
+        final String[] colors =  {"Blue","Cyan", "Gray","Green","Magenta", "Red","Yellow", "Teal", "DarkGray","LightGray","Lime" };
 
         final ColorAdapter adapter = new ColorAdapter(this,colors,colors.length);
 
